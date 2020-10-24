@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style type="text/css">
+    .bg {
+        width: 500px;
+        height: 500px;
+    }
+
+    .first-bg {
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+        opacity: 0.6;
+        background: #9f9f9f;
+    }
+
+    .second-bg {
+        clip-path: polygon(0 0, 90% 0, 80% 100%, 0% 100%);
+        opacity: 0.6;
+        background: #555555;
+    }
+
+    .third-bg {
+        clip-path: polygon(0 0, 80% 0, 70% 100%, 0% 100%);
+        opacity: 0.6;
+        background: #000;
+    }
+
+</style>
+
+<div class="bg first-bg">
+    <div class="bg second-bg">
+        <div class="bg third-bg"></div>
+    </div>
+</div>
+
+</body>
+</html>
